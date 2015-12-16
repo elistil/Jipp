@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1450286522 source:d:\workspace\studia\classes\vector.cpp
+	"../headers/vector.h"
+
+1450284962 d:\workspace\studia\headers\vector.h
+
+1450300395 source:d:\workspace\studia\main.cpp
+	<iostream>
+	<windows.h>
+
