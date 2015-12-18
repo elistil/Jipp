@@ -15,5 +15,4 @@ class Vector {
 		int getY();
 		int getZ();
 };
-
 #endif
