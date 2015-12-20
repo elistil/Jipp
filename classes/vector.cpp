@@ -29,3 +29,12 @@ int Vector::getY() {
 int Vector::getZ() {
 	return Vector::z;
 }
+void Vector::setX(int x) {
+	Vector::x = x;
+}
+void Vector::setY(int y) {
+	Vector::y = y;
+}
+void Vector::setZ(int z) {
+	Vector::z = z;
+}

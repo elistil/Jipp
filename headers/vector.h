@@ -14,5 +14,8 @@ class Vector {
 		int getX();
 		int getY();
 		int getZ();
+		void setX(int);
+		void setY(int);
+		void setZ(int);
 };
 #endif
