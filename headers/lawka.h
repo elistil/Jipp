@@ -1,12 +1,12 @@
 #include "obiekt.h"
-#include "vector.h"
+
 #ifndef LAWKA_H
 #define LAWKA_H
 
 enum class Color {CZERWONY, ZIELONY, NIEBIESKI};
 enum class Wygoda {TWARDA, WYGODNA};
 
-class Lawka : Obiekt {
+class Lawka : public Obiekt {
 	protected:
 		Color color;
 		Wygoda wygoda;
