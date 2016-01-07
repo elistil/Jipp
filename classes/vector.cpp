@@ -5,7 +5,7 @@ Vector::Vector() {
 	Vector::y = 0;
 	Vector::z = 0;
 }
-Vector::Vector(int x) {
+/*Vector::Vector(int x) {
 	Vector::x = x;
 	Vector::y = 0;
 	Vector::z = 0;
@@ -14,7 +14,7 @@ Vector::Vector(int x, int y) {
 	Vector::x = x;
 	Vector::y = y;
 	Vector::z = 0;
-}
+}*/
 Vector::Vector(int x, int y, int z) {
 	Vector::x = x;
 	Vector::y = y;

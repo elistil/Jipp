@@ -5,11 +5,11 @@
 
 class Taczka : public Obiekt {
 	protected:
-		float nosnosc;
+		float capacity;
 	public:
 		Taczka();
 		Taczka(float);
-		float getNosnosc();
+		float getCapacity();
 		void writeDescription() override;
 };
 

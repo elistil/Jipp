@@ -8,9 +8,9 @@ class Vector {
 		int z;
 	public:
 		Vector();
-		Vector(int x);
-		Vector(int x, int y);
-		Vector(int x, int y, int z);
+		/*Vector(int);
+		Vector(int, int);*/
+		Vector(int, int, int);
 		int getX();
 		int getY();
 		int getZ();

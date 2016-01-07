@@ -4,18 +4,18 @@
 #define LAWKA_H
 
 enum class Color {CZERWONY, ZIELONY, NIEBIESKI};
-enum class Wygoda {TWARDA, WYGODNA};
+enum class Comfort {TWARDA, WYGODNA};
 
 class Lawka : public Obiekt {
 	protected:
 		Color color;
-		Wygoda wygoda;
+		Comfort comfort;
 	public:
 		Lawka();
-		Lawka(Vector, Color, Wygoda);
-		char* getColor();
-		char* getWygoda();
-		void writeDescription() override {};
+		Lawka(int, int, int, Color, Comfort);
+		const char* getColor();
+		const char* getComfort();
+		void writeDescription() override;
 };
 
 #endif

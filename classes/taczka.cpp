@@ -4,15 +4,15 @@
 #include <iostream>
 
 Taczka::Taczka() {
-	Taczka::nosnosc = 0;
+	Taczka::capacity = 0;
 }
 
 Taczka::Taczka(float nosnosc) {
-	Taczka::nosnosc = nosnosc;
+	Taczka::capacity = capacity;
 }
-float Taczka::getNosnosc() {
-	return Taczka::nosnosc;
+float Taczka::getCapacity() {
+	return Taczka::capacity;
 }
 void Taczka::writeDescription() {
-	std::cout << "To jest taczka o nosności: " << Taczka::nosnosc << std::endl;
+	std::cout << "To jest taczka o nosności: " << Taczka::capacity << std::endl;
 }
